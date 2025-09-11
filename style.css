@@ -233,7 +233,26 @@ h2 {
     bottom: 20px;
     right: 20px;
 }
+.category h2 {
+    cursor: pointer;
+    background-color: #fff7f0;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    color: #ff6f61;
+}
 
+.category h2:hover {
+    background-color: #ffe4dc;
+}
+
+.category .menu-items {
+    display: none; /* caché par défaut */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    margin-bottom: 30px;
+}
 
 
 /* Animations */
